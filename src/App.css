@@ -1,0 +1,182 @@
+/* animation */
+
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+/* app */
+
+* {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(247, 235, 221);
+  
+}
+
+/* title & homePage */
+
+.header{
+  font-size: 100px;
+  font-weight: 100;
+  position: relative;
+  top: 40px;
+  animation: fade-in 4s;  
+}
+
+.plus{
+  border: 2px gray solid;
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  font-size: 50px;
+  font-weight: 300;
+  animation: fade-in 5s;
+  position: relative;
+  bottom: 20px;
+
+}
+button:hover{
+  background-color:rgb(247, 229, 208) ;
+}
+
+.roomIcons{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  animation: fade-in 1s;
+
+}
+.roomIcon{
+  height: 100px;
+  width: 100px;
+  animation: fade-in 1s;
+  border: solid grey 1px;
+  border-radius: 25px;
+}
+
+ /*addroom page  */
+
+.addRoomPage{
+  animation: fade-in 2s;
+}
+
+select{
+  height: 50px;
+  width: 300px;
+  font-size: large;
+  font-weight: 300;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input{
+  height: 50px;
+  width: 300px;
+  font-size: large;
+  font-weight:300;
+  color: black;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input::placeholder{
+  color: black;
+}
+
+select:hover{
+  background-color:rgb(247, 229, 208)
+}
+
+.addRoomBtn{
+  height: 50px;
+  width: 250px;
+  font-size: large;
+  font-weight: 400;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+/* roompage */
+
+.roomPage{
+  animation: fade-in 5s;
+}
+
+.roomInfo{
+  font-size: 30px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 600px;
+  animation: fade-in 2s;
+}
+
+.addItemDiv{
+  animation: fade-in 1s;
+}
+
+.addItemBtn{
+  height: 50px;
+  width: 300px;
+  font-size: large;
+  font-weight: 200;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  animation: fade-in 2s;
+}
+
+.itemIcon{
+  animation: fade-in 2s;
+  height: 100px;
+  width: 100px;
+  border: solid grey 1px;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin: 20px;
+  font-weight: 300;
+  font-weight: 400;
+}
+
+.itemIcons{
+  display:flex ;
+  justify-content:center;
+  flex-direction: row;
+}
+
+.addItemToRoomBtn{
+  height: 50px;
+  width: 250px;
+  font-size: large;
+  font-weight: 200;
+  border: 2px black solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* google-icons */
+
+.material-symbols-outlined {
+ font-size: 60px;
+ font-weight: 200;
+ border: none;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  animation: fade-in 4s;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+align-items: center;  
+color: black;
+}
+
+.material-symbols-outlined:hover{
+  color:rgb(146, 131, 111) ;
+}
+
